@@ -1,0 +1,27 @@
+.odd-number   {
+    background-color: rgb(255, 180, 180);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#id1 {
+
+}
+
+#id2 {
+color: blue; 
+font-size: 32px;
+}
+
+#class3 {
+font-size: 24px;
+}
+
+#id4 {
+background-color: rgb(164, 255, 164);
+font-size: 24px;
+font-weight: bold;
+}
+
+id5 {
+
+}
