@@ -44,23 +44,51 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
-  align-items: center;
+  margin-left: auto;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 8px;
+
+
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 80px;
+
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+ 
+}
+
+.header {
+  font-weight: bolder;
+  display: flex;
+  font-size: 22px;
+ 
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 14px;
+  align-items: center;
+  
+}
+
+.text {
+margin-left: 80px;
+margin-top: -5px;
 }
