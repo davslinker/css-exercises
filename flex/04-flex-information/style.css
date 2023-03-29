@@ -50,7 +50,8 @@ img {
 
 .fruit-box {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   max-width: 225px;
+  align-items: center;
 }
 
